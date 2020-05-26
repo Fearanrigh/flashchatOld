@@ -14,7 +14,7 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var titleLabel: CLTypingLabel!
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)()
+        super.viewWillAppear(animated) 
         navigationController?.isNavigationBarHidden = true
     }
     
